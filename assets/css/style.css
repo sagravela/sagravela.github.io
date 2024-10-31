@@ -143,6 +143,9 @@ a {
   color: #004d40;
 }
 
+h4 {
+  font-size: 25px;
+}
 /* main blockqoute */
 
 /* blockquote {
@@ -476,17 +479,17 @@ a.hoverline:hover {
   border-bottom: 3px solid #004d40 !important;
 }
 
-#skills .card.large {
+#tech_stack .card.large {
   height: 360px;
 }
 
-#skills h4 {
+#tech_stack h4 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
 
-#skills .col img.responsive-img {
+#tech_stack .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
   padding-bottom: 10px;
