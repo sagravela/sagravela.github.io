@@ -74,12 +74,12 @@
   <nav class="hide-on-small-only">
     <ul class="side-nav fixed section table-of-contents">
 
-      <li class="logo">
+      <!-- <li class="logo">
         <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
           class="brand-logo grey-blue-text">
           <img src="assets/img/profile_img.png" class="circle img-responsive profile-pic" alt="avatar">
         </a>
-      </li>
+      </li> -->
 
       <li class="bold">
         <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
@@ -100,7 +100,7 @@
         mdi-social-poll
         mdi-av-equalizer
         -->
-        <a aria-label="Navigate to the Tech Stack section" href="#Tech Stack" class="waves-effect waves-dark teal-text"><i
+        <a aria-label="Navigate to the Tech Stack section" href="#tech_stack" class="waves-effect waves-dark teal-text"><i
             class="mdi-action-assessment small"></i><span>Tech Stack</span></a>
       </li>
       
@@ -172,7 +172,7 @@
           <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
             <div class="caption">
               <h2>Hi, I'm <span class="teal">Alejandro Vargas.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5 style="color:#fff">A <span class="typing" style="line-height: 50px; font-weight: 400; color:#ffffff"></span></h5>
               <h5>Self-driven, quick starter, passionate coder with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
             </div>
             <div class="social">
@@ -225,8 +225,7 @@
                 <img alt="TensorFlow Recommenders" src="assets/img/ai-wallpaper-1.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">E-commerce Recommendation Engine<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">E-commerce Recommendation Engine</span>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
@@ -257,8 +256,7 @@
                 <img alt="Sales TS Forecasting" src="assets/img/ai-wallpaper-1.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Sales Time Series Forecasting with R<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">Sales Time Series Forecasting with R</span>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
@@ -286,8 +284,7 @@
                 <img alt="POSApp" src="assets/img/ai-wallpaper-1.jpg" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">POSApp (Point of Sale system).<i
-                    class="mdi-navigation-more-vert right"></i></span>
+                <span class="card-title activator teal-text hoverline">POSApp (Point of Sale system).</span>
               </div>
               <div class="card-reveal">
                 <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
@@ -308,6 +305,29 @@
             </div>
           </div>
 
+          <!-- Web Scraping projects -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="WS projects" src="assets/img/ai-wallpaper-1.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Web scraping projects using Scrapy and Selenium.</span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, Selenium, Scrapy, HTML5, CSS3</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Source code" href="https://github.com/sagravela/ws_projects"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -373,7 +393,7 @@
             <div class="row text-center">
               <h4>Machine Learning</h4>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/sk-learn-logo-1.png" class="responsive-img" />Scikit-learn
+                <img alt="" src="assets/img/sklearn.png" class="responsive-img" />Scikit-learn
               </div>
               <div class="col s4 m2">
                 <img alt="" src="assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
@@ -502,13 +522,35 @@
         <p>
           <a aria-label="View Alejandro on Kaggle" href="https://www.kaggle.com/sagravela" target="_blank"
             data-position="top" data-tooltip="View Alejandro on Kaggle"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-kaggle"></i><a aria-label="Alejandro on Kaggle" href="https://www.kaggle.com/sagravela"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+            <a aria-label="Alejandro on Kaggle" href="https://www.kaggle.com/sagravela"
               class="hoverline" target="_blank">kaggle.com/sagravela</a></a>
         </p>
+        
       </div>
     </section>
   </main>
+
+  <button onclick="scrollToTop()" class="to-top-btn" id="toTopBtn">
+    <i class="fa fa-chevron-up"></i>
+  </button>
+
+  <script>
+    // Show button when scrolled down
+    window.onscroll = function() {
+      const toTopBtn = document.getElementById("toTopBtn");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        toTopBtn.style.display = "flex"; // Show button
+      } else {
+        toTopBtn.style.display = "none"; // Hide button
+      }
+    };
+
+    // Scroll to top function
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
 
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
