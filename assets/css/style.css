@@ -332,7 +332,6 @@ h3 {
 }
 
 .overlay {
-  background-color: #2e669e;
   height: 100%;
   left: 0;
   position: absolute;
@@ -530,14 +529,6 @@ small {
 
 .grey-text {
   color: #666 !important;
-}
-
-.teal-text {
-  color: #2e669e !important;
-}
-
-.teal {
-  background-color: #679ace !important;
 }
 
 /* Style for the floating button */
