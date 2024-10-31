@@ -489,6 +489,16 @@ a.hoverline:hover {
   padding-bottom: 20px;
 }
 
+.row .col.s4 {
+  width: 24%;
+  margin-left: 0;
+}
+
+.row .col.m2 {
+  width: 12%;
+  margin-left: 0;
+}
+
 #tech_stack .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
