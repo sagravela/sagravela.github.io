@@ -640,6 +640,7 @@ small {
   }
   #contact p {
     font-size: 12px;
+    max-height: 70px;
   }
   #intro.section {
     background-position-x: 30%;
