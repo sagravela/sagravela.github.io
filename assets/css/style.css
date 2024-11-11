@@ -1,3 +1,35 @@
+
+
+#wrap {
+  margin-bottom: 50px;
+}
+
+#slider,#thumbnail_slider{
+  width: 50vw;
+  margin: 0 auto 10px;
+}
+.slide-item{
+  img{
+    width: 100%;
+  }  
+}
+.thumbnail-item{
+  img{
+    width: 98%;
+    margin: 0 auto;
+  } 
+}
+#slider .slick-slide {
+  height: 37vw !important;
+}
+#thumbnail_slider .slick-slide {
+  height: 10vw !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black !important;
+}
+
 .profile-pic {
   position: relative;
   max-width:130px;
@@ -116,7 +148,7 @@ a {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .text-center {
@@ -137,8 +169,15 @@ nav i {
   top: 5px;
 }
 
+#certificate_icon {
+  font-size: 2rem;
+  padding: 0 15px;
+  position: relative;
+  top: 5px;
+}
+
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: url(../../assets/tech_img/bg.png) repeat;
   padding-left: 190px;
 }
 
@@ -152,7 +191,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  /* color: rgb(16, 202, 56); */
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -181,9 +220,9 @@ ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) 
   border-left: 3px solid;
 }
 
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
+/* ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
   color: #333 !important;
-}
+} */
 
 li.logo span {
   display: block;
@@ -202,6 +241,7 @@ li.logo span {
 }
 
 h3 {
+  font-size: clamp(2rem, 2vw + 1rem, 4rem);
   font-weight: 200;
   margin-bottom: 60px;
   margin-top: 0;
@@ -329,7 +369,7 @@ h3 {
 }
 
 .card .card-title {
-  font-size: 24px;
+  font-size: 1.8rem;
 }
 
 .card .card-content {
@@ -395,11 +435,11 @@ a.hoverline:hover {
 }
 
 .card.medium .card-image {
-  height: 240px;
+  height: auto !important;
 }
 
 .card.medium {
-  height: 370px;
+  height: auto !important;
 }
 
 .card-action a.btn-floating {
@@ -571,11 +611,11 @@ small {
   }
 }
 
-@media (min-width: 600px) and (max-width: 992px) {
+/* @media (min-width: 600px) and (max-width: 992px) {
   #projects .card {
     height: 330px !important;
   }
-}
+} */
 
 @media (max-width: 600px) {
   h2 {
