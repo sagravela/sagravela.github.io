@@ -1,3 +1,5 @@
+<!-- Template adapted and modified from https://github.com/varadbhogayata/varadbhogayata.github.io -->
+
 <!-- <!DOCTYPE html> -->
 <html lang="en">
 
@@ -16,9 +18,9 @@
 
   <!-- Materialize - Compiled and minified CSS-->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Materialize Icons -->
+  <!-- Font Awesome Icon - JS-->
+  <script src="https://kit.fontawesome.com/e7208825af.js" crossorigin="anonymous"></script>   
+  <!-- Material Design Icons -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" />
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" />
@@ -243,9 +245,13 @@
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit " href="https://huggingface.co/spaces/sagravela/demo_recommendation_engine" target="_blank" data-position="top"
-                    data-tooltip="View Online"
+                    data-tooltip="View Demo"
                     class="btn-floating btn-small waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
+                  <a aria-label="Source code" href=""
+                    target="_blank" data-position="top" data-tooltip="Run in Kaggle"
+                    class="btn-floating btn-small waves-effect waves-light blue-grey tooltipped"><i
+                     class="fa-brands fa-kaggle"></i></a>
                   <a aria-label="Source code" href="https://github.com/sagravela/recommendation_engine"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-small waves-effect waves-light blue-grey tooltipped"><i
@@ -299,9 +305,9 @@
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit " href="https://www.youtube.com/watch?v=_9TIbsjK5pI" target="_blank" data-position="top"
-                    data-tooltip="Video Demo"
+                    data-tooltip="View Demo"
                     class="btn-floating btn-small waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
+                      class="fa-brands fa-youtube"></i></a>
                   <a aria-label="Source code" href="https://github.com/sagravela/POSApp"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-small waves-effect waves-light blue-grey tooltipped"><i
@@ -327,9 +333,9 @@
                 </ul>
                 <div class="card-action">
                   <a aria-label="Visit " href="https://www.youtube.com/watch?v=Zr-8NJPAjaE" target="_blank" data-position="top"
-                  data-tooltip="Video Demo"
+                  data-tooltip="View Demo"
                   class="btn-floating btn-small waves-effect waves-light blue-grey tooltipped"><i
-                    class="fa fa-external-link"></i></a>
+                    class="fa-brands fa-youtube"></i></a>
                   <a aria-label="Source code" href="https://github.com/sagravela/PlotGround"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-small waves-effect waves-light blue-grey tooltipped"><i
@@ -633,8 +639,8 @@
         <p>
           <a aria-label="View Alejandro on Kaggle" href="https://www.kaggle.com/sagravela" target="_blank"
             data-position="top" data-tooltip="View Alejandro on Kaggle"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
-            <a aria-label="Alejandro on Kaggle" href="https://www.kaggle.com/sagravela"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+            class="fa-brands fa-kaggle"></i><a aria-label="Alejandro on Kaggle" href="https://www.kaggle.com/sagravela"
               class="hoverline cyan-text text-darken-2" target="_blank">kaggle.com/sagravela</a></a>
         </p>
         
@@ -667,7 +673,7 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typing',{
-      strings: ["Pythonist.", "Developer.", "Fast Learner."],
+      strings: ["Data Enthusiast.", "Pythonist.", "Problem-Solver."],
       loop: true,
       typeSpeed: 80,
       backSpeed: 40
