@@ -508,9 +508,13 @@ li.logo span {
 }
 
 .slick-prev:before, .slick-next:before {
-  color: black !important;
+  color: gray !important;
+  font-size: 2rem !important;
 }
 
+.slick-prev {
+  left: -35px !important;
+}
 /* Contact Section */
 #contact a:not(.btn-floating) {
   bottom: 6px;
