@@ -250,11 +250,9 @@ nav i {
   width: auto;
   height: auto;
   overflow: hidden;
-  display: inline-block;
-  background-size: cover;
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid #3399FF; 
+  border: 6px solid rgb(0, 133, 141); 
   border-radius: 50% !important;
 }
 
