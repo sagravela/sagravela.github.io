@@ -224,6 +224,7 @@ small {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: none; /* Hidden initially */
+  z-index: 2; /* Ensure it's above materialize content */
 }
 
 .to-top-btn i {
