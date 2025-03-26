@@ -322,9 +322,13 @@ li.logo span {
   top: 5px;
 }
 
+.buttons {
+  padding-bottom: 20px;
+}
+
 /* Intro Section */
 #intro.section {
-  background: #a7ffeb repeat;
+  background: url("/assets/tech_img/ai-wallpaper-1.jpg");
   position: relative;
 }
 
