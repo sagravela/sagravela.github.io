@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  background: url(../../assets/tech_img/bg.png) repeat;
+  background: url(../../assets/tech/bg.png) repeat;
   padding-left: 190px;
 }
 
@@ -328,7 +328,7 @@ li.logo span {
 
 /* Intro Section */
 #intro.section {
-  background: url("/assets/tech_img/ai-wallpaper-1.jpg");
+  background: url("/assets/tech/ai-wallpaper-1.jpg");
   position: relative;
 }
 
@@ -494,14 +494,14 @@ li.logo span {
 .slide-item{
   img{
     width: 100%;
-  }  
+  }
 }
 
 .thumbnail-item{
   img{
     width: 98%;
     margin: 0 auto;
-  } 
+  }
 }
 
 #slider .slick-slide {
@@ -569,7 +569,7 @@ li.logo span {
     /* position: relative; */
     top: 64px;
   }
-  
+
   nav {
     background: #fff;
     height: 64px;
@@ -632,7 +632,7 @@ li.logo span {
     font-size: 22px;
     display: block;
   }
-  
+
   .name-title span {
     display: block;
     font-size: 14px;
