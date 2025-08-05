@@ -194,16 +194,20 @@ small {
 
 .d-flex {
   display: flex;
-  align-items: center; /* Vertically centers content */
-  justify-content: space-between; /* Ensures space between text and image */
+  align-items: center;
+  /* Vertically centers content */
+  justify-content: space-between;
+  /* Ensures space between text and image */
 }
 
 .text-content {
-  flex: 1; /* Allows text to take up remaining space */
+  flex: 1;
+  /* Allows text to take up remaining space */
 }
 
 .image-content {
-  max-width: 150px; /* Adjust width as needed for the image */
+  max-width: 150px;
+  /* Adjust width as needed for the image */
 }
 
 /* Style for the floating button */
@@ -211,7 +215,8 @@ small {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #007bff; /* Customize color */
+  background-color: #007bff;
+  /* Customize color */
   color: white;
   border: none;
   border-radius: 50%;
@@ -223,8 +228,10 @@ small {
   /* font-size: 30px; */
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  display: none; /* Hidden initially */
-  z-index: 2; /* Ensure it's above materialize content */
+  display: none;
+  /* Hidden initially */
+  z-index: 2;
+  /* Ensure it's above materialize content */
 }
 
 .to-top-btn i {
@@ -232,7 +239,8 @@ small {
 }
 
 .to-top-btn:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3;
+  /* Darker shade on hover */
 }
 
 /* Nav Bar */
@@ -249,13 +257,13 @@ nav i {
 }
 
 .profile-pic {
-  max-width:150px;
-  max-height:150px;
+  max-width: 150px;
+  max-height: 150px;
   width: auto;
   height: auto;
   overflow: hidden;
   margin: -28px;
-  margin-left:-10px;
+  margin-left: -10px;
   background-color: rgb(0, 133, 141);
 }
 
@@ -280,7 +288,8 @@ ul.side-nav.fixed a {
   padding: 10px 0 12px;
 }
 
-ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
@@ -298,7 +307,8 @@ ul.side-nav.fixed li.logo a {
   line-height: 100%;
 }
 
-ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
+ul.table-of-contents li:not(.logo) a.active,
+ul.table-of-contents li:not(.logo) a:hover {
   background-color: #fafafa;
   border-left: 3px solid;
 }
@@ -435,7 +445,7 @@ li.logo span {
   -webkit-border-radius: 5px;
 }
 
-.contactme:hover{
+.contactme:hover {
   color: #00796b;
   background-color: white;
 }
@@ -444,6 +454,7 @@ li.logo span {
 #projects .btn-floating i {
   font-size: 1.2rem;
 }
+
 .card-reveal p {
   font-size: 1rem;
   margin-top: 0;
@@ -463,20 +474,28 @@ li.logo span {
 #tech_stack .col img.responsive-img {
   margin: 0 auto;
   max-height: 80px;
-  padding: 0 10px 10px 10px; /* Adds 10px padding to the left and right */
+  padding: 0 10px 10px 10px;
+  /* Adds 10px padding to the left and right */
   text-align: center;
   vertical-align: middle;
   display: table-cell;
 }
 
 /* Education Section */
+#education.section {
+  background: url("/assets/F_EXACTAS_UNSJ.jpeg");
+  background-size: contain;
+  aspect-ratio: 4 / 3;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #education .container {
   max-width: 70%;
   align-items: center;
 }
 
 #education .card {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -486,19 +505,20 @@ li.logo span {
   margin-bottom: 50px;
 }
 
-#slider,#thumbnail_slider{
+#slider,
+#thumbnail_slider {
   width: 50vw;
   margin: 0 auto 10px;
 }
 
-.slide-item{
-  img{
+.slide-item {
+  img {
     width: 100%;
   }
 }
 
-.thumbnail-item{
-  img{
+.thumbnail-item {
+  img {
     width: 98%;
     margin: 0 auto;
   }
@@ -512,7 +532,8 @@ li.logo span {
   height: 10vw !important;
 }
 
-.slick-prev:before, .slick-next:before {
+.slick-prev:before,
+.slick-next:before {
   color: gray !important;
   font-size: 2rem !important;
 }
@@ -520,6 +541,7 @@ li.logo span {
 .slick-prev {
   left: -35px !important;
 }
+
 /* Contact Section */
 #contact a:not(.btn-floating) {
   bottom: 6px;
@@ -548,9 +570,13 @@ li.logo span {
   }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1200px) {
   .card ul li {
     line-height: 150%;
+  }
+
+  #education.section {
+    background-size: cover;
   }
 }
 
@@ -565,7 +591,8 @@ li.logo span {
     margin-bottom: 40px;
   }
 
-  h3, .container {
+  h3,
+  .container {
     /* position: relative; */
     top: 64px;
   }
@@ -576,7 +603,8 @@ li.logo span {
     position: absolute;
   }
 
-  nav a.button-collapse, nav a.button-collapse i {
+  nav a.button-collapse,
+  nav a.button-collapse i {
     color: #009688;
     height: 56px;
     line-height: 56px;
@@ -596,13 +624,11 @@ li.logo span {
     margin-top: -60px;
   }
 
-
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
     width: 100%;
   }
-
 
   .container {
     margin: 0 auto;
@@ -623,7 +649,8 @@ li.logo span {
     position: absolute;
   }
 
-  .name-title>span, .name-title>a {
+  .name-title>span,
+  .name-title>a {
     position: relative;
     line-height: 20px;
   }
@@ -648,7 +675,8 @@ li.logo span {
   }
 
   .to-top-btn i {
-    font-size: 25px; /* Adjust the size of the icon relative to the button */
+    font-size: 25px;
+    /* Adjust the size of the icon relative to the button */
   }
 }
 
@@ -716,11 +744,13 @@ li.logo span {
     left: initial;
     bottom: initial;
   }
+
   #contact a.btn-floating.btn-large {
     display: block;
     text-align: center;
     margin: 0 auto;
   }
+
   #contact p {
     font-size: 12px;
     max-height: 70px;
