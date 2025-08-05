@@ -1,2 +1,3 @@
 # Personal Web Page
-Welcome to my personal web page! This platform showcases my skills, projects, and certifications as a Data Scientist. Here, you’ll find insights into my work, my approach to solving complex problems, and how I leverage data to drive impactful decisions.
+
+Welcome to my personal web page! This platform showcases my skills, projects and certifications as a Data Scientist. Here, you’ll find insights into my work, my approach to solving complex problems and how I leverage data to drive impactful decisions.
