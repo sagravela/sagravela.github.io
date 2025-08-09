@@ -456,7 +456,7 @@ li.logo span {
 }
 
 .card-reveal p {
-  font-size: 1rem;
+  font-size: clamp(11px, 2vw, 18px);
   margin-top: 0;
 }
 
@@ -718,8 +718,8 @@ li.logo span {
     background-position-x: 30%;
   }
 
-  #intro.section .container *:not(span) {
-    padding: 0;
+  #intro.section .container *:not(span) a {
+    padding: 10;
   }
 
   #tech_stack .col {
