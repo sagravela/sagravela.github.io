@@ -456,7 +456,7 @@ li.logo span {
 }
 
 .card-reveal p {
-  font-size: clamp(11px, 2vw, 18px);
+  font-size: clamp(13px, 1vw, 15px);
   margin-top: 0;
 }
 
@@ -640,6 +640,11 @@ li.logo span {
     top: initial;
   }
 
+  .card-reveal p {
+    font-size: clamp(10px, 2vw, 20px);
+    margin-top: 0;
+  }
+
   .name-title {
     display: block;
     height: 100%;
@@ -696,7 +701,6 @@ li.logo span {
   }
 
   .card .card-content .card-title {
-    font-size: 20px;
     line-height: 24px;
   }
 
